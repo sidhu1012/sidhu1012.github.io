@@ -1,0 +1,47 @@
+# Site settings
+title: Sudeep Sidhu
+name: Sudeep Sidhu
+tagline: 'Python Developer who loves Open Source'
+#subtitle: Learnings, Ramblings and Rants. In that order.
+email: sudeepsidhu1012@gmail.com
+description: >
+  A blog to track and share my GSoC progress .
+baseurl: ""
+url: "https://sidhu1012.github.io/"
+github_username:  sidhu1012
+githubrepo: https://github.com/sidhu1012?tab=repositories
+disqus_baseurl: "https://sidhu1012.github.io/"
+disqus_shortname: https-sidhu-1012-github-io
+permalink: :title
+
+excerpt_seperator: <!-break->
+
+
+# Build settings
+markdown: kramdown
+paginate: 5
+paginate_path: "/page:num/"
+inter_post_navigation: true
+version: 1.1.0
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      author: "Sudeep Sidhu"
+
+
+# About/contact
+author:
+  name:             Sudeep Sidhu
+  github:           sidhu1012
+  email:            sudeepsidhu1012@gmail.com
+  gravatar_md5:     548d9312f183e9121bbfbef60cd1d569
+
+# External gems
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+  - jekyll-seo-tag
