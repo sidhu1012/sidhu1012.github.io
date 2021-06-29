@@ -22,6 +22,7 @@ Key `highlights` of this week’s work are:
 
   * In this PR, I proposed an API design and solved some example problems with this API to demonstrate my API. We will have a detailed dicussion of the API in the upcoming meet.
 <br><br>
+
 * **[Body.apply_torque takes frame as optional argument](https://github.com/sympy/sympy/pull/21551)**
 
   * While solving example problems using proposed API, I found a limitation of class `Body` that torque can't be applied to the Body instance w.r.t any frame other than the `Body.frame`. This wasn't a desired condition and contradicted with docstring. So this PR adds that functionality to the `Body` class, as an optional `frame` parameter is added to `appy_torque()` which defaults to `Body.frame` to make it backwards compatible.
